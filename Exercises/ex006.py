@@ -16,5 +16,5 @@ numbers.pop(0)
 numbers.pop(-1)
 print("List after removing first and last elements:", numbers)
 
-even_numbers = sorted([num for num in numbers if num % 2 == 0])
-print("Sorted even numbers list:", even_numbers)
+evenNumbers = sorted([num for num in numbers if num % 2 == 0])
+print("Sorted even numbers list:", evenNumbers)
